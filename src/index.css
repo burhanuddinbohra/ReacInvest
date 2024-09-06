@@ -34,7 +34,7 @@ body {
   padding: 1rem;
   max-width: 30rem;
   margin: 2rem auto;
-  border-radius: 4px;
+  border-radius: 20px;
   background: linear-gradient(180deg, #307e6c, #2b996d);
 }
 
@@ -85,4 +85,16 @@ body {
 
 .center {
   text-align: center;
+}
+
+/* utiliy */
+/* Hide arrows in number input */
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield; /* Firefox */
 }
