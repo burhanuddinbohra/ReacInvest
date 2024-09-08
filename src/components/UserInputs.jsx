@@ -41,7 +41,7 @@ function UserInput({ userInput, onChangeInput }) {
           />
         </p>
         <p>
-          <label htmlFor="">Duration</label>
+          <label htmlFor="">Duration (Years)</label>
           <input
             type="number"
             className="no-arrows"
